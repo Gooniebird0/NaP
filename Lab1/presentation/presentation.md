@@ -1,0 +1,78 @@
+---
+## Front matter
+lang: ru-RU
+title: Отчёт по лабораторной работе 1
+author: 'Кочетов Андрей Владимирович'
+date: 18 сентября, 2021
+
+## Formatting
+toc: false
+slide_level: 2
+theme: metropolis
+mainfont: PT Serif
+romanfont: PT Serif
+sansfont: PT Sans
+monofont: PT Mono
+header-includes: 
+ - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
+ - '\makeatletter'
+ - '\beamer@ignorenonframefalse'
+ - '\makeatother'
+aspectratio: 43
+section-titles: true
+---
+
+## Цель работы
+
+Изучение идеалогии и применение средств контроля версий. Освоение умения по работе с git.
+
+## Задание
+
+Лабораторная работа подразумевает регистрацию на github, соединение его с виртуальной машиной и изучение основ.
+
+# Выполнение лабораторной работы
+
+1. Установил git-flow в Fedora Linux, а также gh (рис.1).
+
+   ![рис.1. git-flow и gh.](images/1.png){ #fig:001 width=50% }
+
+---
+
+2. Задал базовые настройки git. Задал имя и email владельца репозитория, настроил utf-8 в выводе сообщений. Настроил верификацию и подписал коммиты git. Задал параметры autocrlf и safecrlf(рис.2).
+
+   ![рис.2. Объем памяти.](images/2.png){ #fig:002 width=60% }
+
+---
+
+3. Создал ключи ssh по разным алгоритмам rsa и ed. Также создал pgp ключ(рис.3).
+
+   ![рис.3. Ключи](images/3.png){ #fig:003 width=60% }
+
+---
+
+4. Добавил ключ PGP ключ в настройки в github (рис.4).
+
+   ![рис.4. PGP ключ](images/4.png){ #fig:004 width=60% }
+
+---
+
+5. Настроил автоматические подписи коммитов и связал между собой виртуальную машину и github (рис.5).
+
+   ![рис.5. Установка соединения.](images/5.png){ #fig:005 width=60% }
+
+---
+
+6. Создал репозитории по шаблону (рис.6).
+
+   ![рис.6. Репозитории.](images/6.png){ #fig:006 width=60% }
+
+---
+
+# Выводы
+
+Приобрел навыки работы с git, изучил основные функции, а также соединил его с виртуальной машиной.
+
+
+## {.standout}
+
+Спасибо за внимание
